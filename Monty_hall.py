@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt # membuat grafik
 rng = np.random.default_rng() # default_rng = membuat generator angka secara acak
 
 # SOAL:
-# Ada 3 pintu: 1 mobil, 2 kambing. Kamu memilih satu pintu. Host (yang tahu isi semua pintu) membuka satu pintu lain yang berisi kambing. 
+# Ada 3 pintu: 1 mobil, 2 kambing. Kamu memilih satu pintu. 
+# Host (yang tahu isi semua pintu) membuka satu pintu lain yang berisi kambing. 
 # Kamu boleh tetap atau ganti pintu. Mana yang lebih baik?
 
 def main_monty_hall(ganti):
